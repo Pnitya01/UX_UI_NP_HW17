@@ -1,0 +1,392 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.webpage-container {
+  width: 100%;
+  height: 2700px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.webpage-navigation-bar-background {
+  width: 100%;
+  height: 243px;
+  background: rgba(132,49,92,1);
+  opacity: 1;
+  position: absolute;
+  top: 2457px;
+  left: 0px;
+  overflow: hidden;
+}
+.webpage-navigation-bar-name-icon {
+  width: 297px;
+  height: 58px;
+  background: url("../images/navigationBarNameIcon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 85px;
+  overflow: hidden;
+}
+.webpage-navigation-bar-about-button {
+  width: 98px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 48px;
+  left: 916px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-navigation-bar-projects-button {
+  width: 124px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 48px;
+  left: 1059px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-navigation-bar-contact-button {
+  width: 118px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 48px;
+  left: 1228px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-about-me-background {
+  width: 100%;
+  height: 720px;
+  background: url("../images/aboutMeBackground.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 116px;
+  left: 0px;
+  overflow: hidden;
+}
+.webpage-about-me-text {
+  width: 360px;
+  color: rgba(255,248,231,1);
+  position: absolute;
+  top: 133px;
+  left: 540px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-view-resume-button-background {
+  width: 156px;
+  height: 35px;
+  background: rgba(255,248,231,1);
+  opacity: 1;
+  position: absolute;
+  top: 287px;
+  left: 642px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.webpage-view-resume-button-background:hover {
+  width: 156px;
+  height: 35px;
+  background: rgba(132,49,92,1);
+  opacity: 1;
+  position: absolute;
+  top: 287px;
+  left: 642px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.webpage-view-resume-button-text {
+  width: 148px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 291px;
+  left: 646px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-heading {
+  width: 310px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 870px;
+  left: 565px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-description {
+  width: 675px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 934px;
+  left: 383px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-journey-app-title {
+  width: 640px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 1478px;
+  left: 50px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-journey-app-description {
+  width: 640px;
+  color: rgba(85,79,82,1);
+  position: absolute;
+  top: 1527px;
+  left: 50px;
+  font-family: Source Sans Pro;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-journey-app-button-background  {
+  width: 156px;
+  height: 35px;
+  background: rgba(132,49,92,1);
+  opacity: 1;
+  position: absolute;
+  top: 1627px;
+  left: 280px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.webpage-portfolio-project-journey-app-button-text {
+  width: 148px;
+  color: rgba(255,248,231,1);
+  position: absolute;
+  top: 1631px;
+  left: 284px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-puppy-social-button-background {
+  width: 156px;
+  height: 35px;
+  background: rgba(132,49,92,1);
+  opacity: 1;
+  position: absolute;
+  top: 1627px;
+  left: 1014px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.webpage-portfolio-project-puppy-social-button-text {
+  width: 148px;
+  color: rgba(255,248,231,1);
+  position: absolute;
+  top: 1631px;
+  left: 1018px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-public-health-button-background {
+  width: 156px;
+  height: 35px;
+  background: rgba(132,49,92,1);
+  opacity: 1;
+  position: absolute;
+  top: 2325px;
+  left: 682px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.webpage-portfolio-project-public-health-button-text {
+  width: 148px;
+  color: rgba(255,248,231,1);
+  position: absolute;
+  top: 2328px;
+  left: 686px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-journey-app-image-background {
+  width: 640px;
+  height: 427px;
+  background: url("../images/travelAppImage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1028px;
+  left: 50px;
+  overflow: hidden;
+}
+.webpage-portfolio-project-public-health-title {
+  width: 640px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 2176px;
+  left: 440px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-public-health-description {
+  width: 640px;
+  color: rgba(85,79,82,1);
+  position: absolute;
+  top: 2226px;
+  left: 440px;
+  font-family: Source Sans Pro;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-puppy-social-title {
+  width: 640px;
+  color: rgba(132,49,92,1);
+  position: absolute;
+  top: 1478px;
+  left: 750px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-puppy-social-description {
+  width: 640px;
+  color: rgba(85,79,82,1);
+  position: absolute;
+  top: 1528px;
+  left: 750px;
+  font-family: Source Sans Pro;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.webpage-portfolio-project-puppy-social-image-background {
+  width: 640px;
+  height: 427px;
+  background: url("../images/puppySocialImage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1028px;
+  left: 750px;
+  overflow: hidden;
+}
+.webpage-portfolio-project-public-health-image-background {
+  width: 640px;
+  height: 427px;
+  background: url("../images/publicHealthImage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1726px;
+  left: 440px;
+  overflow: hidden;
+}
+.webpage-footer-linkedIn-link {
+  width: 87px;
+  color: rgba(255,248,231,1);
+  position: absolute;
+  top: 2516px;
+  left: 478px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: underline;
+}
+.webpage-footer-email-link {
+  width: 50px;
+  color: rgba(255,248,231,1);
+  position: absolute;
+  top: 2516px;
+  left: 683px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: underline;
+}
+.webpage-footer-top-navigation-link {
+  width: 148px;
+  color: rgba(255,248,231,1);
+  position: absolute;
+  top: 2516px;
+  left: 851px;
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: underline;
+}
